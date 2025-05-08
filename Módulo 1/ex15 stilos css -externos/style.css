@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(122, 71, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: darkgray;
+    background-color: rgb(70, 83, 12);
+}
+h2{
+    color: darkred;
+}
+
+
+
+
+
+/*
+@ - Tudo que começar com arroba é uma regra, regra começa no início do css
+@charset "UTF-8"; - Para ter compatibilidade com acentuação.
+*/

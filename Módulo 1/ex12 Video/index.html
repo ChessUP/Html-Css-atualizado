@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedado localmente</h1>
+    <p>Esse vídeo está hospedado no próprio servidor</p>
+
+<!--    <video src="midia/13346630_1080_1920_60fps.mp4" width="250" controls></video>
+        Essa é uma forma de fazer    -->
+
+    <video width="250" poster="img/300x300.jpg" controls loop>
+        <source src="midia/13346630_1080_1920_60fps.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h1>Inserindo video do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=LeneQSxX5ugUgs_l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
+
+<!--
+Cuidado com os formatos dos vídeos, mesma coisa que o áudio, bom é colocar todos os formatos,
+    navegador vai usar o que é compatível.(se o video for local, quanto mais vídeo mais pesado fica o site)
+    A ordem tem total infuência.
+
+
+
+-->
