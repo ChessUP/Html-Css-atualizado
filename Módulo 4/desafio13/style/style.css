@@ -31,7 +31,7 @@ section#phone {
     
     height: 590px;
     width: 290px;
-    background: green url(../img/frame-iphone.png) no-repeat;
+    background: url(../img/frame-iphone.png) no-repeat;
     background-size: 97%;
 }
 
