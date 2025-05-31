@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/all.css">
+    <link rel="stylesheet" href="estilos/mobile.css" media="screen and (orientation: portrait)">
+</head>
+<body>
+    <main>
+        <div><!--<img src="img/pexels-sean-whang-25006-804269.jpg" alt="Imagem padrão">--></div>
+        <h1>Login</h1>
+        <p>Seja bem - vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
+        <form action="index.php" method="post">
+            <fieldset class="caixa">
+                <input type="email" name="email" id="iemail" required placeholder="seu e-mail">
+            </fieldset>
+            <fieldset class="caixa">
+                <input type="password" name="senha" id="isenha" minlength="8" required placeholder="sua senha">
+            </fieldset>
+
+            <input id="buttonentrar" type="submit" value="Entrar">
+            <input id="buttonsenha" type="reset" value="Esqueci a senha">
+        </form>
+    </main>
+</body>
+</html>
