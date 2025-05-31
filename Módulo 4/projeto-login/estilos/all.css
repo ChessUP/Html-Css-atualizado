@@ -1,4 +1,15 @@
 @media screen and (min-width: 768px){
+    main {
+        
+        height: 20px;
+    }
     
     
+    main > div > img {
+        position: absolute;
+        float: left;
+        height: 200px;
+
+        left: 228px;
+    }
 }
